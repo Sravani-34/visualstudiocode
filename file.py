@@ -1,0 +1,8 @@
+myfile=open('C:\\Users\\samba\\Downloads\\filename.txt', 'r')
+content=myfile.read()
+print(content)
+myfile.close()
+myfile1=open('C:\\Users\\samba\\Downloads\\filename.txt', 'w')
+content1=myfile1.write("Heyt")
+print(content1)
+myfile1.close()
