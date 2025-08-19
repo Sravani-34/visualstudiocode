@@ -4,7 +4,7 @@
 Enter second number: 5 
 Enter an operator (+, -, *, /): * 
 Result: 10 * 5 = 50'''
-first_number=int(input("enter first number:"))
+first_number=int(input("enter first1 number:"))
 second_number=int(input("enter second number:"))
 operator=(input("Enter an operation (+, -, *, /):"))
 if operator=='+':
